@@ -9,6 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://frey.su" # the base hostname & protocol for your site
 twitter_username: forever_frey
 github_username:  Freika
+paginate: 5
+permalink: /:title
 
 # Build settings
 markdown: kramdown
