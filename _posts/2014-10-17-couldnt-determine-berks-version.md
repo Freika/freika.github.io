@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RuntimeError: Couldn't determine Berks version
+title: "RuntimeError: Couldn't determine Berks version"
 ---
 
 
