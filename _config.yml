@@ -1,6 +1,8 @@
 # Site settings
 title: Фрей написал
+header-img: 'img/home-bg.jpg'
 email: frey@list.ru
+author: Фрей
 description: > # this means to ignore newlines until "baseurl:"
   Костыли и велосипеды.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -12,3 +14,6 @@ permalink: /:title
 
 # Build settings
 markdown: kramdown
+# highlighter: pygments
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
