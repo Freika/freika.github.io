@@ -10,7 +10,7 @@ url: "http://frey.su" # the base hostname & protocol for your site
 twitter_username: forever_frey
 github_username:  Freika
 paginate: 10
-permalink: /:title
+permalink: /:title/
 
 # Build settings
 markdown: redcarpet
