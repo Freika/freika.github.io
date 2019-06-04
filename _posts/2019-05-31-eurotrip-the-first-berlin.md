@@ -8,9 +8,6 @@ description: "Бизнес по-русски, никакого Брежнева 
 _Это третья часть из трёх._
 
 - [Евротрип, часть первая: Мюнхен](https://frey.su/eurotrip-the-first-munich/)
-- Евротрип, часть вторая: Прага
-
-- [Евротрип, часть первая: Мюнхен](https://frey.su/eurotrip-the-first-munich/)
 - [Евротрип, часть вторая: Прага](https://frey.su/eurotrip-the-first-prague/)
 — *Евротрип, часть третья: Берлин*
 
