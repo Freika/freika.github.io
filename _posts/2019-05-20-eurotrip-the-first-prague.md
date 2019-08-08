@@ -8,7 +8,7 @@ _Это вторая часть из трёх._
 
 - [Евротрип, часть первая: Мюнхен](https://frey.su/eurotrip-the-first-munich/)
 - Евротрип, часть вторая: Прага
-— [Евротрип, часть третья: Берлин](https://frey.su/eurotrip-the-first-berlin/)
+- [Евротрип, часть третья: Берлин](https://frey.su/eurotrip-the-first-berlin/)
 
 ***
 
