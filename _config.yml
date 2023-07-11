@@ -1,13 +1,13 @@
 # Site settings
-title: Фрей написал
+title: Frey Today
 header-img: 'img/home-bg.jpg'
-email: frey@list.ru
-author: Фрей
+email: hey+freytoday@frey.today
+author: Frey
 description: > # this means to ignore newlines until "baseurl:"
   Debugging life since 1991.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://frey.su" # the base hostname & protocol for your site
-twitter_username: forever_frey
+twitter_username: itsok2befrey
 github_username:  Freika
 paginate: 10
 permalink: /:title/
