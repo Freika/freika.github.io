@@ -1,35 +1,22 @@
 ---
-layout: page
+layout: landing
 description: "kinda blog"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-      <h3 class="post-subtitle">
-        {{ post.subtitle }}
-      </h3>
-    {% endif %}
-    </a>
-    <p class="post-meta text-center">{{ post.date | date: "%d.%m.%Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+<h2>Current projects</h2>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Поздние посты</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Ранние посты &rarr;</a>
-  </li>
-  {% endif %}
+<ul>
+  <li><a href="https://leanpub.com/white-hat-hacking-ru">Web Hacking 101</a> — translated a book to Russian</li>
+  <li><a href="https://askabout.company/">AskAbout.company</a> — a comprehensive list of questions to ask</li>
+  <li><a href="https://mysterious.gifts/">Secret Santa as a Service</a> — a platform for Secret Santa games</li>
 </ul>
-{% endif %}
+
+
+<h2>What I made</h2>
+
+<li><a href="http://codenamecrud.ru/">CodenameCRUD</a> — an educational platform from strach to full-stack junior web dev</li>
+<li>onrails.club — a forum for Ruby developers</li>
+<li><a href="https://nickshaker.com/">Nickshaker</a> — nickname generating platform</li>
+<li><a href="https://ruby.show/">Ruby Show</a> — a catalog of Ruby courses</li>
+<li><a href="https://leanpub.com/deploying_rails_applications-ru">Reliably Deploying Rails Applications</a> — translated a book to Russian</li>
+<li><a href="https://whereismymoney.club/">Where Is My Money</a> — a paid newsletter on how to handle money</li>

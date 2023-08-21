@@ -137,6 +137,21 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
+.intro-header.landing {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.intro-header p {
+  color: #b0b0b0;
+}
+.intro-header a {
+  color: #fff;
+  text-decoration: none;
+}
+.intro-header a:hover {
+  color: #6d7b70;
+  text-decoration: none;
+}
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
