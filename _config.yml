@@ -1,5 +1,5 @@
 # Site settings
-title: Frey Today
+title: Evgenii Burmakin
 header-img: 'img/home-bg.jpg'
 email: hey+freytoday@frey.today
 author: Frey
@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://frey.su" # the base hostname & protocol for your site
 twitter_username: itsok2befrey
 github_username:  Freika
+telegram: https://t.me/Freika
 paginate: 10
 permalink: /:title/
 
