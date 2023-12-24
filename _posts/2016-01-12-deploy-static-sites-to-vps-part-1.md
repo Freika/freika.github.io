@@ -8,8 +8,8 @@ title: Деплой Jekyll и Middleman на VPS, часть первая
 Статьи серии:
 
  - Часть первая - настройка сервера (*эта статья*)
- - **[Часть вторая - деплой Jekyll](http://frey.su/deploy-static-sites-to-vps-part-2)**
- - **[Часть третья - деплой Middleman](http://frey.su/deploy-static-sites-to-vps-part-3)**
+ - **[Часть вторая - деплой Jekyll](http://frey.today/deploy-static-sites-to-vps-part-2)**
+ - **[Часть третья - деплой Middleman](http://frey.today/deploy-static-sites-to-vps-part-3)**
 
 
 Во-первых, нам понадобится сервер. Я уже некоторое время для экспериментов использую Vscale, wannabe-digitalocean от известного хостера Selectel. Вот реферальная **[ссылка](https://vscale.io/?refcode=64s02xb6up)**, по которой можно получить бонус в 400р на счет - самое оно поиграться, учитывая, что минимальный VPS (20gb памяти и 512mb оперативной) стоит всего 200р. Если потратите еще 400 сверху - я получу бонус 400р уже на свой счет и скажу вам спасибо.
