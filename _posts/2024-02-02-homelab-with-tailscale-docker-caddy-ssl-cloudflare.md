@@ -195,6 +195,14 @@ Now, if you are connected to Tailscale, wait 20-30 seconds so Caddy can handle S
 
 You're beautiful! It might not work, but you still are. If it isn't working, check logs of your Caddy container to indicate the error.
 
+## Caveats
+
+Here are some things you might want to check if something isn't working. Added by unexperienced [@marinegor](github.com/marinegor) after spending some time with this guide.
+
+1. Make sure your containers have the hostname you intended them to have. By default, containers are named like `<project-directory-name>_<service-name>_<instance-number>`, and you have to specify `container_name: my_custom_container_name` in order to enforce a particular name that later will be used in your Caddyfile. For instances, `glances` from the example above works perfect, but with other services make sure you specify the container name.
+2. After you update the `Caddyfile` (and restart caddy), it might take a while before your service becomes available (up to an hour for me). If you're debugging things, you can always expose `ports: xxxx:yyyy` in your container and access the service via `http://<your_tailscale_ip>:xxxx`.
+
+
 ## Conclusion
 
 This is the way I handle accessing my homelab-hosted apps from basically anywhere. There is a more convenient way where you don't need to update Caddyfile manually every single time you want to host a new app, and use labels in docker-compose.yml of said app instead, but, unfortunately, [https://github.com/lucaslorentz/caddy-docker-proxy](https://github.com/lucaslorentz/caddy-docker-proxy) uses LetsEncrypt's SSL certificates, and LetsEncrypt needs to actually reach (sub)domain it creates certificate for. This is, in the case of an internal network and a Tailscale network, not an option, because those networks by definition are not accessible from the big and wild internet.
