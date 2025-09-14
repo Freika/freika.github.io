@@ -47,7 +47,7 @@ If you're not building for yourself, you need feedback. Share your work in r/ope
 
 ## Have fun
 
-You're doing it because you couldn't _not do it_, after all. Make sure to keep balance between tedious stuff and fun, or you risk facing a burnout and nobody really wants that. Also remember, nobody can demand anything from you unless they pay for it and you agreed to their term. You're not the support service for your project. You don't have to stress out because a stranger on the interned isn't satisfied with what you built for free in your spare time.
+You're doing it because you couldn't _not do it_, after all. Make sure to keep balance between tedious stuff and fun, or you risk facing a burnout and nobody really wants that. Also remember, nobody can demand anything from you unless they pay for it and you agreed to their terms. You're not the support service for your project. You don't have to stress out because a stranger on the interned isn't satisfied with what you built for free in your spare time.
 
 
 ## There's more to that
